@@ -1,0 +1,135 @@
+<html>
+	<head>
+
+	<style>
+	
+	    	p.border {padding: 10px; border: 5px solid green;}
+
+		p.first {padding: 10px; border-style: solid; border-width: 2px;}
+	
+	        body{   background-color: #87CEFA; 
+			background-image: url("doggy.jpg");
+   			background-repeat: repeat-inherit; 
+		        background-attachment: scroll;
+
+			}
+		
+		h3{background-color: rgb(135,306,235);}
+		
+		p.first {background-color: LightGreen;}
+	
+		ol.lower-alpha {list-style-type: lower-alpha;}
+		ul.circle {list-style-type: circle;}
+		ul.square {list-style-type: square;}
+		
+		table {
+			border-collapse: separate;
+			border-spacing: 20px 40px;
+			empty-cells: show;
+		}
+		
+		.blue { 
+		   background-color: #8EC4D0;
+		   margin-bottom: 15px;
+		   width: 120px;
+		   height: 120px;
+		   color: #FFF;
+		}
+		.red {
+		   background-color: #FF4D4D;
+		   position: relative;
+		   width: 120px;
+		   height: 120px;
+		   color: #FFF;
+		   margin-top: -50px;
+		   margin-left: 50px;
+		}
+
+		.overflow1 {
+		  width: 150px;
+		  height: 150px;
+		  background-color: LightBlue;
+		  float: left;
+		}
+
+		.overflow2 {
+		   width: 150px;
+		   height: 150px;
+		   background-color: LightBlue;
+		   float: left;
+                   overflow:scroll;
+             	}
+
+	</style>	
+	</head>
+
+
+
+	<body>
+		<h3>properties</h3>
+
+		<p class="border">This is an example of a solid border.</p>
+
+		<p class="first">Border width of this paragraph is set to 2px.</p>
+
+		<p class="1" background-color: #87CEFA;>The background color of this page is set to LightSkyBlue.</p>
+
+		<ol class="lower-alpha">
+		   <li>Red</li>
+		   <li>Green</li>
+		   <li>Blue</li>
+		</ol>
+		   <ul class="circle">
+		   <li>Red</li>
+		   <li>Green</li>
+		   <li>Blue</li>
+		</ul>
+		<ul class="square">
+		   <li>Red</li>
+		   <li>Green</li>
+		   <li>Blue</li>
+		</ul>
+
+
+		<table border="1">
+		   <tr>
+		     <td>Red</td>
+		     <td>Green</td>
+		   </tr>
+		   <tr>
+		      <td>Blue</td>
+		      <td></td>
+		   </tr>
+		</table>
+
+		<h4>Setting the Mouse Cursor Style</h4>
+		<span style="cursor:help;">Do you need help?</span>
+		</br><span style="cursor:crosshair;">Aim here</span>
+		
+		<h4>this show the z-index Property</h4>
+		<div class="blue">Blue</div>
+		<div class="red">Red</div>
+
+		<h4>overflow</h4>
+		<div class="overflow1">
+		This text is inside the div element, which has a blue
+		background color and is floated to the left. We set a specific
+		height and width for the div element, and as you can see,
+		the content cannot fit.
+		</div>
+		</br>	
+		<div class="overflow2">
+                This text is inside the div element, which has a blue
+                background color and is floated to the left. We set a specific
+                height and width for the div element, and as you can see,
+                the content cannot fit.
+                </div>
+
+
+
+	</body>
+
+
+
+	
+</html>

@@ -1,0 +1,86 @@
+<html>
+    <head>
+	<h2>learing CSS</h2>		
+	<style>
+	    p.serif {
+                font-family: "Times New Roman", Times, serif; font-size: large; font-style: italic;
+	    }
+	    p.A {
+		font-family: Florence, cursive; font-size: medium;
+	    }
+	    p.color{color: green; }
+	    p.left {   text-align: left;}
+	    p.right {   text-align: right;}
+	    p.center {   text-align: center;}    
+
+	    td.top {vertical-align: top;}
+	    td.middle {vertical-align: middle;}
+	    td.bottom {vertical-align: bottom;}
+
+	    p.none {text-decoration: none;}
+	    p.inherit {text-decoration: inherit;}
+	    p.overline {text-decoration: overline;}
+	    p.underline {text-decoration: underline;}
+	    p.line-through {text-decoration: line-through;}
+
+	    p.shadow {color: blue; font-size: 30pt; text-shadow: 5px 2px 4px grey;}
+
+	    p.normal { 
+		   letter-spacing: normal; 
+		}
+	    p.positive { 
+		   letter-spacing: 4px; 
+		}
+
+	</style>
+    </head>
+
+    <body>
+    	<h4>this is body parts of this</h4>
+	<p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media</p>
+	
+	<h3>Text Font</h3>
+	<p class="serif">font-family: "Times New Roman", Times, serif; font-size: large; font-style: italic;
+</p>
+	<p class="A"> when we make this p tage "class=A" use CSS: "p.A {
+                font-family: Florence, cursive; 
+            }" 
+	    to change the font of this pargrafe. (this is show in Florence, cursive font in mediume size.)</p>
+	<p class="color">This is show the font coloring on CSS. You can use color name or RGB code for coloring.</p>
+	
+	<h3>Text Align</h3>
+	<h5>-Horizontally</h5>
+	<p class="left">This paragraph is aligned to <strong>left.</strong></p>
+	<p class="right">This paragraph is aligned to <strong>right.</strong></p>
+	<p class="center">This paragraph is aligned to <strong>center.</strong></p>
+
+	<h5>verticaly</h5>
+	<table border="1" cellpadding="2" cellspacing="0" style="height: 150px;">
+  <tr>
+     <td class="top">Top</td>
+     <td class="middle">Middle</td>
+     <td class="bottom">Bottom</td>
+  </tr>
+</table>
+	
+	<h4>text decoration</h4>
+	<p class="none">This is default style of the text (none).</p>
+	<p class="inherit">This text inherits the decoration of the parent.</p>
+	<p class="overline">This is overlined text.</p>
+	<p class="underline">This is underlined text.</p>
+	<p class="line-through">This is lined-through text.</p>
+
+	<h4>text shadow</h4>
+	<p class="shadow">Text-shadow example</p>
+
+	<h4>letter spacing</h4>
+	<p class="normal">This paragraph has no additional letter-spacing applied.</p>
+	<p class="positive ">This paragraph is letter-spaced at 4px.(word spacing is semiler to this.)  use "white-space: nowrap;" to remove extra space</p>
+
+
+
+
+    </body>
+
+
+</html>
